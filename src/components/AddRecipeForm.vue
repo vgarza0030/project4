@@ -22,7 +22,7 @@ const submitForm = () => {
 
   emit('add-recipe', newRecipe);
 
-  // Reset form fields
+  
   name.value = '';
   ingredientsInput.value = '';
   costsInput.value = '';
