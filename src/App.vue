@@ -18,7 +18,7 @@ const selectRecipe = (recipe) => {
 
 <template>
   <div id="app">
-    <h1>Recipe Cost and Calorie Tracker</h1>
+    <h1>Recipe and Costs with Calorie Tracker</h1>
     <AddRecipeForm @add-recipe="addRecipe" />
     <RecipeList :recipes="recipes" @select-recipe="selectRecipe" />
     <RecipeDetails :recipe="selectedRecipe" />

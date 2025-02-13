@@ -37,13 +37,13 @@ const submitForm = () => {
       <label for="name">Recipe Name:</label>
       <input type="text" v-model="name" required />
 
-      <label for="ingredients">Ingredients (comma-separated):</label>
+      <label for="ingredients">Ingredients :</label>
       <input type="text" v-model="ingredientsInput" required />
 
-      <label for="costs">Costs (comma-separated):</label>
+      <label for="costs">Costs :</label>
       <input type="text" v-model="costsInput" required />
 
-      <label for="calories">Calories (comma-separated):</label>
+      <label for="calories">Calories :</label>
       <input type="text" v-model="caloriesInput" required />
 
       <button type="submit">Add Recipe</button>
